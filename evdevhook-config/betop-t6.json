@@ -1,0 +1,27 @@
+{
+    "profiles": {
+        "betop-t6": {
+			"gyroSensitivity": 0.858,
+            "accel": "y+z-x+",
+            "gyro": "y-z-x+"
+        }
+    },
+    "devices": [
+        {
+            "name": "Betop T6 For USB IMU",
+            "profile": "betop-t6"
+        },
+        {
+            "name": "Betop T6 For Adapter IMU",
+            "profile": "betop-t6"
+        },
+        {
+            "name": "Betop T6 For USB With Audio IMU",
+            "profile": "betop-t6"
+        },
+        {
+            "name": "Betop T6 For Adapter With Audio IMU",
+            "profile": "betop-t6"
+        }
+    ]
+} 
